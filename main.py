@@ -46,7 +46,7 @@ def say(text):
 
     playsound.playsound(file_name)
 
-    # os.remove(file_name)
+    os.remove(file_name)
 
     print(f"Ассистент: {text}")
 
